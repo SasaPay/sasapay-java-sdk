@@ -13,14 +13,19 @@ Take a look at the [API docs here](https://developer.sasapay.app).
 Maven:
 
 You can depend on the jars through Maven (from `https://jitpack.io`):
-```xml
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+```
         <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-...
+```
+Step 2. Add the dependency
+```
        <dependency>
 	    <groupId>com.github.MusauEric</groupId>
 	    <artifactId>sasapaysdk</artifactId>
@@ -29,32 +34,50 @@ You can depend on the jars through Maven (from `https://jitpack.io`):
 ```
 or sbt:
 
+Add it in your build.sbt at the end of resolvers:
 ```
-resolvers += "jitpack" at "https://jitpack.io"
+ resolvers += "jitpack" at "https://jitpack.io"
+ ```
+ Step 2. Add the dependency
+ ```
 // Get all services
-libraryDependencies += "com.github.MusauEric" % "sasapaysdk" % "1.0"	
+```
+libraryDependencies += "com.github.SasaPay" % "sasapay-java-sdk" % "1.0"	
 ```
 
 or Gradle (Groovy DSL):
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
 ```groovy
 repositories {
   maven {
     url  "https://jitpack.io"
   }
 }
-
+```
+Step 2. Add the dependency
+```
 dependencies{
   // Get all services
     implementation 'com.github.SasaPay:sasapay-java-sdk:1.0'
 ```
 
 or Gradle (Kotlin DSL):
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
 ```kotlin
 repositories {
     jcenter()
     maven { url 'https://jitpack.io' }
 }
+```
 
+Step 2. Add the dependency
+```
 dependencies{
   // Get all services
     implementation 'com.github.SasaPay:sasapay-java-sdk:1.0'
