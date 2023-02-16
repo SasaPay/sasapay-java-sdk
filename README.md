@@ -10,16 +10,18 @@ Take a look at the [API docs here](https://developer.sasapay.app).
 
 ## Install
 
+Maven:
+
 You can depend on the jars through Maven (from `https://jitpack.io`):
 ```xml
-<repositories>
+        <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
 ...
-<dependency>
+       <dependency>
 	    <groupId>com.github.MusauEric</groupId>
 	    <artifactId>sasapaysdk</artifactId>
 	    <version>1.0</version>
