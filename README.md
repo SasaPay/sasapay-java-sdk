@@ -26,9 +26,9 @@ Step 1. Add the JitPack repository to your build file
 ```
 Step 2. Add the dependency
 ```
-       <dependency>
-	    <groupId>com.github.MusauEric</groupId>
-	    <artifactId>sasapaysdk</artifactId>
+        <dependency>
+	    <groupId>com.github.SasaPay</groupId>
+	    <artifactId>sasapay-java-sdk</artifactId>
 	    <version>1.0</version>
 	</dependency>
 ```
