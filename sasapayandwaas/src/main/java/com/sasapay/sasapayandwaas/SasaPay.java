@@ -18,7 +18,6 @@ public class SasaPay {
             thread.join();
 
             JSONObject result = jsonThread.getResult();
-            System.out.println(result);
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();

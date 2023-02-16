@@ -28,7 +28,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -57,7 +57,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -87,7 +87,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -115,7 +115,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -144,7 +144,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -173,7 +173,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -202,7 +202,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -232,7 +232,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -255,7 +255,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -285,7 +285,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -293,6 +293,7 @@ public class Waas {
         }
 
     }
+
     public JSONObject tillPayment(String bearerToken, String transaction_reference, String beneficiary_account_number, int sasapay_bill_number, int amount, int merchant_code, int transaction_fee, String reason, String callBack_Url) {
 
         try {
@@ -314,7 +315,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -345,7 +346,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -375,7 +376,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -403,7 +404,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -433,7 +434,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -463,7 +464,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -492,7 +493,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -524,7 +525,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -544,7 +545,7 @@ public class Waas {
 
 
             JSONObject result = jsonThread.getResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -565,7 +566,7 @@ public class Waas {
 
 
             JSONObject result = jsonThread.getResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -584,7 +585,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.getResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -615,7 +616,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -647,7 +648,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -673,7 +674,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -704,7 +705,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -737,7 +738,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -762,7 +763,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -791,7 +792,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -816,7 +817,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.getResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -836,7 +837,7 @@ public class Waas {
 
 
             JSONObject result = jsonThread.getResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -868,7 +869,7 @@ public class Waas {
             thread.join();
 
             JSONObject result = jsonThread.postResult();
-            System.out.println(result);
+            ;
             return result;
         } catch (InterruptedException e) {
             e.printStackTrace();

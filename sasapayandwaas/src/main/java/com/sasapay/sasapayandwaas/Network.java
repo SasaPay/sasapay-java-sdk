@@ -40,9 +40,9 @@ public class Network implements Runnable {
 
     @Override
     public void run() {
-        if(requestType == 0){
+        if (requestType == 0) {
             result = getRequest(url, encoded, type);
-        }else {
+        } else {
             result = postRequest(url, bearer, body);
         }
 
