@@ -43,7 +43,7 @@ repositories {
 
 dependencies{
   // Get all services
- implementation 'com.github.MusauEric:sasapaysdk:1.0'
+    implementation 'com.github.SasaPay:sasapay-java-sdk:1.0'
 ```
 
 or Gradle (Kotlin DSL):
@@ -55,7 +55,7 @@ repositories {
 
 dependencies{
   // Get all services
-  implementation 'com.github.MusauEric:sasapaysdk:1.0'
+    implementation 'com.github.SasaPay:sasapay-java-sdk:1.0'
 }
 ```
 
