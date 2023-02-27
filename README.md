@@ -1,7 +1,7 @@
 # Sasapay/Waas Sdk
 
 >
-> Sasa Pay API provides a whole host of products that can facilitate you to improve your business processes and gain a better competitive edge. We expose endpoints for C2B, B2C, B2B, cashback, your customers transactions, and Anti-Money Laundering (AML) . To invoke the API, you can utilize tools such as Postman REST client, curl, and HTTPie. In this documentation, we have included sample code snippets in various languages along with the expected JSON responses..
+> Sasa Pay API provides a whole host of products that can facilitate you to improve your business processes and gain a better competitive edge. We expose endpoints for C2B, B2C, B2B, cashback, your customers transactions, and Anti-Money Laundering (AML) . To invoke the API, you can utilize tools such as Postman REST client, curl, and HTTPie. In this [documentation](https://developer.sasapay.app), we have included sample code snippets in various languages along with the expected JSON responses..
 >
 
 
